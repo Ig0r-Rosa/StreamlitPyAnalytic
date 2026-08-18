@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Cache local (lookups CID, municípios, CBO)
+.cache/
+
+# Variáveis de ambiente e credenciais
+.env
+*.env
+
+# Alocação de horas (local)
+.alocacao-horas.json
+
+# IDE e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# CSV único grande (usar partes .partNNN.csv em data/processed/)
+data/processed/sim_sc_processado_analitico.csv
